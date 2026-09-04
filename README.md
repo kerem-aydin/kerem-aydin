@@ -33,8 +33,8 @@ trusted was never calling my own endpoint at all.
 
 | Repository | What it does |
 |---|---|
-| **[randevu-widget](https://github.com/BruceWayne2122/randevu-widget)** | A booking box you add to any site with one script tag. No dependencies, runs inside a Shadow DOM, computes slots in the business's own time zone. [Live demo](https://brucewayne2122.github.io/randevu-widget/demo/) |
-| **[tr-dogrulama](https://github.com/BruceWayne2122/tr-dogrulama)** | The small things you rewrite every time you work with Turkish business data: Turkish-aware lowercasing, phone numbers (including 444 lines), corporate vs. personal email, national ID, tax number, IBAN. |
+| **[randevu-widget](https://github.com/kerem-aydin/randevu-widget)** | A booking box you add to any site with one script tag. No dependencies, runs inside a Shadow DOM, computes slots in the business's own time zone. [Live demo](https://kerem-aydin.github.io/randevu-widget/demo/) |
+| **[tr-dogrulama](https://github.com/kerem-aydin/tr-dogrulama)** | The small things you rewrite every time you work with Turkish business data: Turkish-aware lowercasing, phone numbers (including 444 lines), corporate vs. personal email, national ID, tax number, IBAN. |
 
 Both dependency-free, both tested.
 
@@ -78,8 +78,8 @@ geçtiğini sandığım bir sınav aslında kendi uç noktamı hiç çağırmıy
 
 | Depo | Ne işe yarar |
 |---|---|
-| **[randevu-widget](https://github.com/BruceWayne2122/randevu-widget)** | Herhangi bir siteye tek script etiketiyle eklenen randevu kutusu. Bağımlılık yok, Shadow DOM içinde çalışır, saat dilimini işletmenin saatiyle hesaplar. [Canlı demo](https://brucewayne2122.github.io/randevu-widget/demo/) |
-| **[tr-dogrulama](https://github.com/BruceWayne2122/tr-dogrulama)** | Türk işletme verisiyle çalışırken defalarca yeniden yazılan küçük şeyler: Türkçe duyarlı küçültme, telefon (444'lü hatlar dahil), kurumsal rol e-postası ayrımı, TCKN, VKN, IBAN. |
+| **[randevu-widget](https://github.com/kerem-aydin/randevu-widget)** | Herhangi bir siteye tek script etiketiyle eklenen randevu kutusu. Bağımlılık yok, Shadow DOM içinde çalışır, saat dilimini işletmenin saatiyle hesaplar. [Canlı demo](https://kerem-aydin.github.io/randevu-widget/demo/) |
+| **[tr-dogrulama](https://github.com/kerem-aydin/tr-dogrulama)** | Türk işletme verisiyle çalışırken defalarca yeniden yazılan küçük şeyler: Türkçe duyarlı küçültme, telefon (444'lü hatlar dahil), kurumsal rol e-postası ayrımı, TCKN, VKN, IBAN. |
 
 İkisi de bağımlılıksız, ikisi de testli.
 
