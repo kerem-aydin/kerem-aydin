@@ -1,7 +1,7 @@
 ## Kerem Aydın
 
-I build automation systems for small businesses, and the checks that prove
-they still work tomorrow.
+Mathematics student at Sakarya University. I build automation systems for
+small businesses, and the checks that prove they still work tomorrow.
 
 Right now that is **[Veluxo AI](https://veluxoai.com)**: a written-channel
 receptionist for appointment-based businesses. A message arrives on Instagram
@@ -29,9 +29,11 @@ booking into the business's own panel. I designed, built and shipped it alone.
   broke without an error: an invisible section, horizontal overflow, a broken
   image, a slow page. Before each run it puts a known bug back on purpose and
   fails if it cannot catch it.
-- **Problem radar:** every Monday it reads public complaints (Hacker News,
-  1-2 star App Store reviews), clusters them, counts distinct people, and sends
-  the five problems people pay for but are unhappy with.
+- **Problem radar:** collects public complaints and reviews from many sources
+  (50,000+ records so far, 15,000+ read by AI), clusters them, counts distinct
+  people, and ranks the problems people pay for but are unhappy with.
+- **Telegram team:** ten bots that report to me every day, send a morning plan
+  and run my scheduled automations.
 - **Cockpit:** one screen for all of the above. Each automation is drawn as a
   flow diagram and lights up step by step while it runs.
 
@@ -72,7 +74,7 @@ TypeScript · Next.js · React · Node.js · Python · Supabase / Postgres ·
 Meta Graph API (Instagram, WhatsApp) · OpenAI · GitHub Actions · Vercel ·
 Puppeteer
 
-I study mathematics in Türkiye. Open to collaborations and projects:
+Open to collaborations and projects:
 [veluxoai.com](https://veluxoai.com) · [LinkedIn](https://www.linkedin.com/in/kerem-aydin-a124a0420)
 
 ---
@@ -80,8 +82,8 @@ I study mathematics in Türkiye. Open to collaborations and projects:
 
 ## Türkçe
 
-Küçük işletmeler için otomasyon sistemleri kuruyorum ve bu sistemlerin yarın
-da çalıştığını kanıtlayan denetimleri.
+Sakarya Üniversitesi'nde matematik okuyorum. Küçük işletmeler için otomasyon
+sistemleri kuruyorum ve bu sistemlerin yarın da çalıştığını kanıtlayan denetimleri.
 
 Şu an bu **[Veluxo AI](https://veluxoai.com)**: randevuyla çalışan işletmeler
 için yazılı kanal resepsiyonu. Instagram'a ya da WhatsApp'a bir mesaj gelir,
@@ -105,9 +107,12 @@ kendi paneline yazar. Tek başıma tasarladım, yazdım ve yayına aldım.
   şeyleri bildirir: görünmeyen bölüm, yana taşma, kırık resim, yavaş sayfa. Her
   koşudan önce bilinen bir hatayı bilerek geri koyar; yakalayamazsa kendini
   bozuk sayar.
-- **Problem radarı:** her pazartesi herkese açık şikâyetleri okur (Hacker News,
-  App Store'da 1-2 yıldızlı yorumlar), kümeler, ayrı kişileri sayar ve insanların
-  para ödediği ama memnun olmadığı beş sorunu getirir.
+- **Problem radarı:** birçok kaynaktan herkese açık şikâyet ve yorumları toplar
+  (şimdiye kadar 50.000'den fazla kayıt, 15.000'den fazlası yapay zekâyla okundu),
+  kümeler, ayrı kişileri sayar ve insanların para ödediği ama memnun olmadığı
+  sorunları sıralar.
+- **Telegram ekibi:** her gün rapor veren, sabah planı gönderen ve zamanlanmış
+  otomasyonlarımı yürüten on bot.
 - **Kokpit:** hepsi tek ekranda. Her otomasyon bir akış şeması olarak çizilir,
   çalışırken adım adım yanar.
 
@@ -137,4 +142,4 @@ sınıfını her gece arıyor.
 
 İkisi de bağımlılıksız, ikisi de testli.
 
-Türkiye'de matematik okuyorum. İş birliklerine ve projelere açığım.
+İş birliklerine ve projelere açığım.
