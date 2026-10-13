@@ -1,156 +1,104 @@
 ## Kerem Aydın
 
-Mathematics student at Sakarya University. I build automation systems for
-small businesses, and the checks that prove they still work tomorrow.
+Mathematics student at Sakarya University. I design and build **websites,
+dashboards, AI agents and automations**, and the checks that prove they still
+work tomorrow. I run a one-person company where most of the staff are agents.
 
-**What I build for clients:** websites · admin panels · workflow automation
-(n8n, Make, Telegram bots, AI agents). Open for freelance work.
-
-I built **[Veluxo AI](https://veluxoai.com)** alone: a written-channel
-receptionist for appointment-based businesses. A message arrives on Instagram
-or WhatsApp, the assistant answers it, checks a real free slot, and writes the
-booking into the business's own panel. Now I am building on top of it for
-real-estate offices: every customer request is kept, so when the right listing
-appears, nobody who asked for it is forgotten.
+**Open for freelance work:** websites · admin panels and dashboards · workflow
+automation (n8n, Make, Telegram bots, AI agents).
 
 ---
 
-### What I have shipped
+### Product
 
-**Veluxo AI** · live product, solo
-- Instagram DM and WhatsApp Cloud API channels behind one signature-checked
-  webhook.
-- A booking engine that writes only after the slot is confirmed free, so two
-  conversations cannot take the same hour.
-- A multi-tenant business panel: inbox, calendar, conversation history,
-  onboarding.
-- About 470 automated tests across the channel, booking and panel code.
-- Next.js 16 · React 19 · TypeScript · Supabase (Postgres) · OpenAI · Vercel.
-- 770+ commits since July 2026.
+**[Veluxo AI](https://veluxoai.com)** · live, built alone
 
-**An automation fleet that watches itself**
-- **Night watch:** every night a real browser opens the live site as a phone
-  and as a desktop, scrolls every page to the bottom, and reports anything that
-  broke without an error: an invisible section, horizontal overflow, a broken
-  image, a slow page. Before each run it puts a known bug back on purpose and
-  fails if it cannot catch it.
-- **Problem radar:** collects public complaints and reviews from many sources
-  (50,000+ records so far, 15,000+ read by AI), clusters them, counts distinct
-  people, and ranks the problems people pay for but are unhappy with.
-- **Telegram team:** ten bots that report to me every day, send a morning plan
-  and run my scheduled automations.
-- **Cockpit:** one screen for all of the above. Each automation is drawn as a
-  flow diagram and lights up step by step while it runs.
+A written-channel receptionist for appointment-based businesses. A message
+arrives on Instagram or WhatsApp, the assistant answers it, checks a real free
+slot, and writes the booking into the business's own panel. Now extended for
+real-estate offices: every customer request is kept and matched to new listings.
 
----
+- Designed and built end to end: marketing site, onboarding, multi-tenant
+  business panel (inbox, calendar, conversation history).
+- Instagram DM and WhatsApp Cloud API behind one signature-checked webhook.
+- A booking engine that writes only after the slot is confirmed free.
+- A voice agent prototype that answers the phone and books into the same calendar.
+- 340+ automated tests · 670+ commits since July 2026.
+- Next.js · React · TypeScript · Supabase (Postgres) · OpenAI · Vercel.
 
-### How I work
+### Systems I run for myself
 
-**Whatever the model says, what is actually in the book?**
-A language model's output is a claim. "Your appointment is confirmed" can only
-be sent after the calendar has accepted it.
+Private code, real use. About 1,400 commits across my private repositories in the last year.
 
-**Whose clock is this?**
-`new Date("2026-09-10T14:00")` reads as Berlin in a visitor's browser and as
-UTC on the server. Both are wrong, and the bug shows up as "my appointment
-moved by an hour".
+| System | What it does |
+|---|---|
+| **Cockpit** | One dashboard for everything below. Each automation is drawn as a flow diagram that lights up step by step while it runs. |
+| **Telegram team** | Bots that send a short morning plan, ask for decisions with buttons and report when something breaks. |
+| **Night watch** | Opens the live site every night as a phone and a desktop and reports what broke without an error. Open-sourced as [gece-bekcisi](https://github.com/kerem-aydin/gece-bekcisi). |
+| **Research lines** | Coding agents read public sources in five audited stages to find problems people actually pay for. Method open-sourced as [kanitli-arastirma](https://github.com/kerem-aydin/kanitli-arastirma). |
+| **Problem radar** | Collects public complaints and reviews, clusters them, counts distinct people. |
+| **Job hunter** | Finds small paid automation jobs on public boards and scores them with explicit rules, no model. |
+| **Weekly report** | Every Sunday, what was actually built that week, from GitHub and the task list. |
+| **Usage guard** | Keeps background agents within limits so the owner always has room to work. Part of [ajan-ofisi](https://github.com/kerem-aydin/ajan-ofisi). |
 
-**Is this measurement measuring anything?**
-A green test suite can be testing the wrong layer. The footer of my own site
-was blank on phones: no error, no failing test. A layout change after
-load had pushed the scroll triggers below the end of the page. I found it by
-measuring what a phone actually shows, and the night watch now checks for
-that class of bug every night.
+### Design
 
----
+I design what I build: the Veluxo site and panel, the cockpit, and a browser
+driving game with a procedural, seed-based world and engine sound synthesized
+with the Web Audio API (three.js).
 
-### Open repositories
+### Open source
 
 | Repository | What it does |
 |---|---|
-| **[ajan-ofisi](https://github.com/kerem-aydin/ajan-ofisi)** | The skeleton of my one-person office on Telegram: a morning plan from a Markdown task list, a decision box with buttons, and a usage guard that keeps background coding agents from eating the owner's subscription. |
-| **[randevu-widget](https://github.com/kerem-aydin/randevu-widget)** | A booking box you add to any site with one script tag. No dependencies, runs inside a Shadow DOM, computes slots in the business's own time zone. [Live demo](https://kerem-aydin.github.io/randevu-widget/demo/) |
-| **[tr-dogrulama](https://github.com/kerem-aydin/tr-dogrulama)** | The small things you rewrite every time you work with Turkish business data: Turkish-aware lowercasing, phone numbers (including 444 lines), corporate vs. personal email, national ID, tax number, IBAN. |
+| **[gece-bekcisi](https://github.com/kerem-aydin/gece-bekcisi)** | Night watch for websites. A real browser scrolls every page as a slow phone and a desktop, reports invisible sections, sideways scroll, broken images, slow pages. Proves itself first by catching a bug put back on purpose. |
+| **[kanitli-arastirma](https://github.com/kerem-aydin/kanitli-arastirma)** | Evidence-first research run by coding agents: separate stages, an adversarial audit by an agent that did not write the work, code-checked rules for what counts as proof that people pay. |
+| **[ajan-ofisi](https://github.com/kerem-aydin/ajan-ofisi)** | A one-person office on Telegram: morning plan from a Markdown task list, a decision box with buttons, a usage guard for background agents. |
+| **[randevu-widget](https://github.com/kerem-aydin/randevu-widget)** | A booking widget for any site with one script tag. Shadow DOM, slots in the business's own time zone. [Live demo](https://kerem-aydin.github.io/randevu-widget/demo/) |
+| **[tr-dogrulama](https://github.com/kerem-aydin/tr-dogrulama)** | Validation for Turkish business data: phone numbers, national ID, tax number, IBAN, role vs. personal email. |
 
-All three are dependency-free and tested.
+All tested on every push, none with more than one dependency.
 
-### Tools
+### How I work
 
-TypeScript · Next.js · React · Node.js · Python · Supabase / Postgres ·
-Meta Graph API (Instagram, WhatsApp) · OpenAI · GitHub Actions · Vercel ·
-Puppeteer
+- **A model's output is a claim.** "Your appointment is confirmed" is sent only after the calendar has accepted it.
+- **Measure what the user sees.** My site's footer was blank on phones with every test green. The night watch exists because of that.
+- **Proof before building.** A complaint count is not proof that anyone pays; my research rules say what is.
 
-Open to collaborations and projects:
+### Now · October 2026
+
+- Open for freelance automation, website and dashboard work.
+- Taking Veluxo to real-estate offices.
+- Six research lines (three finished) on where AI solves problems people pay for.
+
+TypeScript · JavaScript · Python · Next.js · React · Node.js · Supabase / Postgres ·
+Meta Graph API · OpenAI · n8n · Make · GitHub Actions · Vercel · Puppeteer · three.js
+
 [veluxoai.com](https://veluxoai.com) · [LinkedIn](https://www.linkedin.com/in/kerem-aydin-a124a0420)
 
 ---
----
 
-## Türkçe
+<details>
+<summary><b>Türkçe</b></summary>
 
-Sakarya Üniversitesi'nde matematik okuyorum. Küçük işletmeler için otomasyon
-sistemleri kuruyorum ve bu sistemlerin yarın da çalıştığını kanıtlayan denetimleri.
+Sakarya Üniversitesi'nde matematik okuyorum. **Web sitesi, panel, yapay zekâ
+ajanları ve otomasyonlar** tasarlayıp kuruyorum; bunların yarın da çalıştığını
+kanıtlayan denetimleri de. Personelinin çoğu ajan olan tek kişilik bir şirket
+yürütüyorum.
 
-**Müşteriler için kurduklarım:** web sitesi · yönetim paneli · iş akışı
-otomasyonu (n8n, Make, Telegram botları, yapay zekâ ajanları). Serbest işlere açığım.
+**Serbest işlere açığım:** web sitesi · yönetim paneli · iş akışı otomasyonu
+(n8n, Make, Telegram botları, yapay zekâ ajanları).
 
-**[Veluxo AI](https://veluxoai.com)**'yı tek başıma kurdum: randevuyla çalışan
-işletmeler için yazılı kanal resepsiyonu. Instagram'a ya da WhatsApp'a bir mesaj
-gelir, asistan cevaplar, gerçekten boş bir saati doğrular ve randevuyu işletmenin
-kendi paneline yazar. Şimdi bunun üstüne emlak ofisleri için çalışıyorum: her
-müşteri isteği saklanır, uygun ilan çıktığında onu isteyen kimse unutulmaz.
-
-### Yayına aldıklarım
-
-**Veluxo AI** · canlı ürün, tek kişi
-- Resmî Meta API'leri üzerinde Instagram DM ve WhatsApp kanalları; imza
-  denetimli tek bir webhook.
-- Saat gerçekten boş olduğu doğrulanmadan yazmayan bir randevu motoru; iki
-  konuşma aynı saati alamaz.
-- Çok kiracılı işletme paneli: gelen kutusu, takvim, konuşma geçmişi, kurulum.
-- Kanal, randevu ve panel kodunda yaklaşık 470 otomatik test.
-- Temmuz 2026'dan beri 770'ten fazla commit.
-
-**Kendi kendini denetleyen otomasyonlar**
-- **Gece bekçisi:** her gece gerçek bir tarayıcı canlı siteyi telefon ve
-  bilgisayar gibi açar, her sayfayı dibine kadar kaydırır; hata vermeden bozulan
-  şeyleri bildirir: görünmeyen bölüm, yana taşma, kırık resim, yavaş sayfa. Her
-  koşudan önce bilinen bir hatayı bilerek geri koyar; yakalayamazsa kendini
-  bozuk sayar.
-- **Problem radarı:** birçok kaynaktan herkese açık şikâyet ve yorumları toplar
-  (şimdiye kadar 50.000'den fazla kayıt, 15.000'den fazlası yapay zekâyla okundu),
-  kümeler, ayrı kişileri sayar ve insanların para ödediği ama memnun olmadığı
-  sorunları sıralar.
-- **Telegram ekibi:** her gün rapor veren, sabah planı gönderen ve zamanlanmış
-  otomasyonlarımı yürüten on bot.
-- **Kokpit:** hepsi tek ekranda. Her otomasyon bir akış şeması olarak çizilir,
-  çalışırken adım adım yanar.
-
-### Nasıl çalışıyorum
-
-**Model ne söylerse söylesin, defterde ne var?**
-Bir dil modelinin çıktısı bir iddiadır. "Randevunuz oluşturuldu" ancak takvim
-kabul ettikten sonra söylenebilir.
-
-**Saat kimin saati?**
-`new Date("2026-09-10T14:00")` ziyaretçinin tarayıcısında Berlin, sunucuda UTC
-okunur. İkisi de yanlıştır ve hata "randevum bir saat kaymış" diye ortaya çıkar.
-
-**Bu ölçüm gerçekten ölçüyor mu?**
-Yeşil bir test suiti yanlış katmanı ölçüyor olabilir. Kendi sitemin footer'ı
-telefonda boş kalıyordu: hata yok, düşen test yok. Açılıştan sonraki bir
-yerleşim değişikliği, kaydırma tetiklerini sayfanın sonunun altına itmişti.
-Telefonun gerçekte ne gösterdiğini ölçerek buldum; gece bekçisi artık bu hata
-sınıfını her gece arıyor.
-
-### Açık depolar
-
-| Depo | Ne işe yarar |
-|---|---|
-| **[ajan-ofisi](https://github.com/kerem-aydin/ajan-ofisi)** | Telegram'daki tek kişilik ofisimin iskeleti: Markdown görev listesinden sabah planı, düğmeli karar kutusu ve arka plandaki kod ajanlarının sahibin kullanım hakkını yemesini engelleyen kullanım bekçisi. |
-| **[randevu-widget](https://github.com/kerem-aydin/randevu-widget)** | Herhangi bir siteye tek script etiketiyle eklenen randevu kutusu. Bağımlılık yok, Shadow DOM içinde çalışır, saat dilimini işletmenin saatiyle hesaplar. [Canlı demo](https://kerem-aydin.github.io/randevu-widget/demo/) |
-| **[tr-dogrulama](https://github.com/kerem-aydin/tr-dogrulama)** | Türk işletme verisiyle çalışırken defalarca yeniden yazılan küçük şeyler: Türkçe duyarlı küçültme, telefon (444'lü hatlar dahil), kurumsal rol e-postası ayrımı, TCKN, VKN, IBAN. |
-
-Üçü de bağımlılıksız ve testli.
+- **Ürün:** [Veluxo AI](https://veluxoai.com), randevuyla çalışan işletmeler için
+  Instagram ve WhatsApp'tan cevap veren, gerçekten boş saati doğrulayıp randevuyu
+  işletmenin paneline yazan resepsiyon. Site, panel ve kanallar dahil uçtan uca
+  tek başıma tasarlayıp kurdum. Şimdi emlak ofisleri için genişliyor.
+- **Kendim için çalıştırdığım sistemler:** kokpit paneli, Telegram ekibi, gece
+  bekçisi, araştırma hatları, problem radarı, iş avcısı, haftalık rapor,
+  kullanım bekçisi. Gizli depolarımda son bir yılda yaklaşık 1.400 commit.
+- **Açık depolar:** gece-bekcisi, kanitli-arastirma, ajan-ofisi,
+  randevu-widget, tr-dogrulama. Hepsi her gönderimde test ediliyor.
 
 İş birliklerine ve projelere açığım.
+
+</details>
