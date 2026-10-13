@@ -26,6 +26,12 @@ real-estate offices: every customer request is kept and matched to new listings.
 - 340+ automated tests · 670+ commits since July 2026.
 - Next.js · React · TypeScript · Supabase (Postgres) · OpenAI · Vercel.
 
+<p>
+  <a href="https://veluxoai.com"><img src="assets/veluxo-desktop.jpg" alt="Veluxo AI home page on desktop" width="620"></a>
+  <a href="https://veluxoai.com"><img src="assets/veluxo-phone.jpg" alt="Veluxo AI home page on a phone" width="178"></a>
+</p>
+<sub>Site and panel designed and built by me. The panel shown on the home page uses sample data.</sub>
+
 ### Systems I run for myself
 
 Private code, real use. About 1,400 commits across my private repositories in the last year.
