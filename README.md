@@ -3,10 +3,15 @@
 Mathematics student at Sakarya University. I build automation systems for
 small businesses, and the checks that prove they still work tomorrow.
 
-Right now that is **[Veluxo AI](https://veluxoai.com)**: a written-channel
+**What I build for clients:** websites · admin panels · workflow automation
+(n8n, Make, Telegram bots, AI agents). Open for freelance work.
+
+I built **[Veluxo AI](https://veluxoai.com)** alone: a written-channel
 receptionist for appointment-based businesses. A message arrives on Instagram
 or WhatsApp, the assistant answers it, checks a real free slot, and writes the
-booking into the business's own panel. I designed, built and shipped it alone.
+booking into the business's own panel. Now I am building on top of it for
+real-estate offices: every customer request is kept, so when the right listing
+appears, nobody who asked for it is forgotten.
 
 ---
 
@@ -63,10 +68,11 @@ that class of bug every night.
 
 | Repository | What it does |
 |---|---|
+| **[ajan-ofisi](https://github.com/kerem-aydin/ajan-ofisi)** | The skeleton of my one-person office on Telegram: a morning plan from a Markdown task list, a decision box with buttons, and a usage guard that keeps background coding agents from eating the owner's subscription. |
 | **[randevu-widget](https://github.com/kerem-aydin/randevu-widget)** | A booking box you add to any site with one script tag. No dependencies, runs inside a Shadow DOM, computes slots in the business's own time zone. [Live demo](https://kerem-aydin.github.io/randevu-widget/demo/) |
 | **[tr-dogrulama](https://github.com/kerem-aydin/tr-dogrulama)** | The small things you rewrite every time you work with Turkish business data: Turkish-aware lowercasing, phone numbers (including 444 lines), corporate vs. personal email, national ID, tax number, IBAN. |
 
-Both dependency-free, both tested.
+All three are dependency-free and tested.
 
 ### Tools
 
@@ -85,10 +91,14 @@ Open to collaborations and projects:
 Sakarya Üniversitesi'nde matematik okuyorum. Küçük işletmeler için otomasyon
 sistemleri kuruyorum ve bu sistemlerin yarın da çalıştığını kanıtlayan denetimleri.
 
-Şu an bu **[Veluxo AI](https://veluxoai.com)**: randevuyla çalışan işletmeler
-için yazılı kanal resepsiyonu. Instagram'a ya da WhatsApp'a bir mesaj gelir,
-asistan cevaplar, gerçekten boş bir saati doğrular ve randevuyu işletmenin
-kendi paneline yazar. Tek başıma tasarladım, yazdım ve yayına aldım.
+**Müşteriler için kurduklarım:** web sitesi · yönetim paneli · iş akışı
+otomasyonu (n8n, Make, Telegram botları, yapay zekâ ajanları). Serbest işlere açığım.
+
+**[Veluxo AI](https://veluxoai.com)**'yı tek başıma kurdum: randevuyla çalışan
+işletmeler için yazılı kanal resepsiyonu. Instagram'a ya da WhatsApp'a bir mesaj
+gelir, asistan cevaplar, gerçekten boş bir saati doğrular ve randevuyu işletmenin
+kendi paneline yazar. Şimdi bunun üstüne emlak ofisleri için çalışıyorum: her
+müşteri isteği saklanır, uygun ilan çıktığında onu isteyen kimse unutulmaz.
 
 ### Yayına aldıklarım
 
@@ -137,9 +147,10 @@ sınıfını her gece arıyor.
 
 | Depo | Ne işe yarar |
 |---|---|
+| **[ajan-ofisi](https://github.com/kerem-aydin/ajan-ofisi)** | Telegram'daki tek kişilik ofisimin iskeleti: Markdown görev listesinden sabah planı, düğmeli karar kutusu ve arka plandaki kod ajanlarının sahibin kullanım hakkını yemesini engelleyen kullanım bekçisi. |
 | **[randevu-widget](https://github.com/kerem-aydin/randevu-widget)** | Herhangi bir siteye tek script etiketiyle eklenen randevu kutusu. Bağımlılık yok, Shadow DOM içinde çalışır, saat dilimini işletmenin saatiyle hesaplar. [Canlı demo](https://kerem-aydin.github.io/randevu-widget/demo/) |
 | **[tr-dogrulama](https://github.com/kerem-aydin/tr-dogrulama)** | Türk işletme verisiyle çalışırken defalarca yeniden yazılan küçük şeyler: Türkçe duyarlı küçültme, telefon (444'lü hatlar dahil), kurumsal rol e-postası ayrımı, TCKN, VKN, IBAN. |
 
-İkisi de bağımlılıksız, ikisi de testli.
+Üçü de bağımlılıksız ve testli.
 
 İş birliklerine ve projelere açığım.
