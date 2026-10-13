@@ -80,7 +80,7 @@ All tested on every push, none with more than one dependency.
 TypeScript · JavaScript · Python · Next.js · React · Node.js · Supabase / Postgres ·
 Meta Graph API · OpenAI · n8n · Make · GitHub Actions · Vercel · Puppeteer · three.js
 
-[veluxoai.com](https://veluxoai.com) · [LinkedIn](https://www.linkedin.com/in/keremayd%C4%B1n)
+[veluxoai.com](https://veluxoai.com) · [LinkedIn](https://www.linkedin.com/in/kerem-aydin-ai)
 
 ---
 
