@@ -15,8 +15,9 @@ automation (n8n, Make, Telegram bots, AI agents).
 
 A written-channel receptionist for appointment-based businesses. A message
 arrives on Instagram or WhatsApp, the assistant answers it, checks a real free
-slot, and writes the booking into the business's own panel. Now extended for
-real-estate offices: every customer request is kept and matched to new listings.
+slot, and writes the booking into the business's own panel. A version for
+real-estate offices is in development: every customer request is kept and
+matched to new listings.
 
 - Designed and built end to end: marketing site, onboarding, multi-tenant
   business panel (inbox, calendar, conversation history).
@@ -98,7 +99,7 @@ yapıyor.
 - **Ürün:** [Veluxo AI](https://veluxoai.com), randevuyla çalışan işletmeler için
   Instagram ve WhatsApp'tan cevap veren, gerçekten boş saati doğrulayıp randevuyu
   işletmenin paneline yazan resepsiyon. Site, panel ve kanallar dahil uçtan uca
-  tek başıma tasarlayıp kurdum. Şimdi emlak ofisleri için genişliyor.
+  tek başıma tasarlayıp kurdum. Emlak ofisleri için sürümü geliştiriliyor.
 - **Kendim için çalıştırdığım sistemler:** kokpit paneli, Telegram ekibi, gece
   bekçisi, araştırma hatları, problem radarı, iş avcısı, haftalık rapor,
   kullanım bekçisi. Gizli depolarımda son bir yılda yaklaşık 1.400 commit.
