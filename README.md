@@ -2,7 +2,7 @@
 
 Mathematics student at Sakarya University. I design and build **websites,
 dashboards, AI agents and automations**, and the checks that prove they still
-work tomorrow. I run a one-person company where most of the staff are agents.
+work tomorrow. I work alone, with agents doing much of the routine work.
 
 **Open for freelance work:** websites · admin panels and dashboards · workflow
 automation (n8n, Make, Telegram bots, AI agents).
@@ -89,8 +89,8 @@ Meta Graph API · OpenAI · n8n · Make · GitHub Actions · Vercel · Puppeteer
 
 Sakarya Üniversitesi'nde matematik okuyorum. **Web sitesi, panel, yapay zekâ
 ajanları ve otomasyonlar** tasarlayıp kuruyorum; bunların yarın da çalıştığını
-kanıtlayan denetimleri de. Personelinin çoğu ajan olan tek kişilik bir şirket
-yürütüyorum.
+kanıtlayan denetimleri de. Tek başıma çalışıyorum; rutin işin çoğunu ajanlar
+yapıyor.
 
 **Serbest işlere açığım:** web sitesi · yönetim paneli · iş akışı otomasyonu
 (n8n, Make, Telegram botları, yapay zekâ ajanları).
