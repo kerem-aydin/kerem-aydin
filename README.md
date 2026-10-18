@@ -80,7 +80,7 @@ The five code repositories run their tests on every push, with at most one depen
 TypeScript · JavaScript · Python · Next.js · React · Node.js · Supabase / Postgres ·
 Meta Graph API · OpenAI · n8n · Make · GitHub Actions · Vercel · Puppeteer · three.js
 
-[LinkedIn](https://www.linkedin.com/in/kerem-aydin-ai)
+[veluxoai.com](https://veluxoai.com) · [LinkedIn](https://www.linkedin.com/in/kerem-aydin-ai)
 
 ---
 
