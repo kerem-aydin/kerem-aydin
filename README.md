@@ -9,15 +9,13 @@ automation (n8n, Make, Telegram bots, AI agents).
 
 ---
 
-### Product
+### Selected project
 
-**[Veluxo AI](https://veluxoai.com)** · live, built alone
+**[Veluxo AI](https://veluxoai.com)** · built alone, July–October 2026
 
 A written-channel receptionist for appointment-based businesses. A message
 arrives on Instagram or WhatsApp, the assistant answers it, checks a real free
-slot, and writes the booking into the business's own panel. A version for
-real-estate offices is in development: every customer request is kept and
-matched to new listings.
+slot, and writes the booking into the business's own panel.
 
 - Designed and built end to end: marketing site, onboarding, multi-tenant
   business panel (inbox, calendar, conversation history).
@@ -58,13 +56,14 @@ with the Web Audio API (three.js).
 
 | Repository | What it does |
 |---|---|
-| **[gece-bekcisi](https://github.com/kerem-aydin/gece-bekcisi)** | Night watch for websites. A real browser scrolls every page as a slow phone and a desktop, reports invisible sections, sideways scroll, broken images, slow pages. Proves itself first by catching a bug put back on purpose. |
+| **[gece-bekcisi](https://github.com/kerem-aydin/gece-bekcisi)** | Night watch for websites. A real browser scrolls specified pages as a slow phone and a desktop, reports invisible headings and footers, sideways scroll, broken images, slow pages. Includes a nightly workflow example that checks a deliberately hidden footer first. |
 | **[kanitli-arastirma](https://github.com/kerem-aydin/kanitli-arastirma)** | Evidence-first research run by coding agents: separate stages, an adversarial audit by an agent that did not write the work, code-checked rules for what counts as proof that people pay. |
 | **[ajan-ofisi](https://github.com/kerem-aydin/ajan-ofisi)** | A one-person office on Telegram: morning plan from a Markdown task list, a decision box with buttons, a usage guard for background agents. |
 | **[randevu-widget](https://github.com/kerem-aydin/randevu-widget)** | A booking widget for any site with one script tag. Shadow DOM, slots in the business's own time zone. [Live demo](https://kerem-aydin.github.io/randevu-widget/demo/) |
 | **[tr-dogrulama](https://github.com/kerem-aydin/tr-dogrulama)** | Validation for Turkish business data: phone numbers, national ID, tax number, IBAN, role vs. personal email. |
+| **[n8n-workflows](https://github.com/kerem-aydin/n8n-workflows)** | Five n8n workflows from my own instance: a demo-clinic booking assistant, WhatsApp messaging, reminders and more, cleaned for reuse. |
 
-All tested on every push, none with more than one dependency.
+The five code repositories run their tests on every push, with at most one dependency each.
 
 ### How I work
 
@@ -74,14 +73,14 @@ All tested on every push, none with more than one dependency.
 
 ### Now · October 2026
 
-- Open for freelance automation, website and dashboard work.
-- Taking Veluxo to real-estate offices.
-- Six research lines (three finished) on where AI solves problems people pay for.
+- Open for freelance work: dashboards and internal tools, websites, workflow automation.
+- Building website templates for real-estate offices and dashboards for small businesses.
+- Finished six research lines on where AI solves problems people pay for.
 
 TypeScript · JavaScript · Python · Next.js · React · Node.js · Supabase / Postgres ·
 Meta Graph API · OpenAI · n8n · Make · GitHub Actions · Vercel · Puppeteer · three.js
 
-[veluxoai.com](https://veluxoai.com) · [LinkedIn](https://www.linkedin.com/in/kerem-aydin-ai)
+[LinkedIn](https://www.linkedin.com/in/kerem-aydin-ai)
 
 ---
 
@@ -96,15 +95,15 @@ yapıyor.
 **Serbest işlere açığım:** web sitesi · yönetim paneli · iş akışı otomasyonu
 (n8n, Make, Telegram botları, yapay zekâ ajanları).
 
-- **Ürün:** [Veluxo AI](https://veluxoai.com), randevuyla çalışan işletmeler için
+- **Öne çıkan proje:** [Veluxo AI](https://veluxoai.com), randevuyla çalışan işletmeler için
   Instagram ve WhatsApp'tan cevap veren, gerçekten boş saati doğrulayıp randevuyu
-  işletmenin paneline yazan resepsiyon. Site, panel ve kanallar dahil uçtan uca
-  tek başıma tasarlayıp kurdum. Emlak ofisleri için sürümü geliştiriliyor.
+  işletmenin paneline yazan resepsiyon. Site, panel ve kanallar dahil uçtan uca tek başıma tasarlayıp
+  kurdum (Temmuz–Ekim 2026).
 - **Kendim için çalıştırdığım sistemler:** kokpit paneli, Telegram ekibi, gece
   bekçisi, araştırma hatları, problem radarı, iş avcısı, haftalık rapor,
   kullanım bekçisi. Gizli depolarımda son bir yılda yaklaşık 1.400 commit.
 - **Açık depolar:** gece-bekcisi, kanitli-arastirma, ajan-ofisi,
-  randevu-widget, tr-dogrulama. Hepsi her gönderimde test ediliyor.
+  randevu-widget, tr-dogrulama, n8n-workflows.
 
 İş birliklerine ve projelere açığım.
 
