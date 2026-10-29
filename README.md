@@ -62,8 +62,9 @@ with the Web Audio API (three.js).
 | **[randevu-widget](https://github.com/kerem-aydin/randevu-widget)** | A booking widget for any site with one script tag. Shadow DOM, slots in the business's own time zone. [Live demo](https://kerem-aydin.github.io/randevu-widget/demo/) |
 | **[tr-dogrulama](https://github.com/kerem-aydin/tr-dogrulama)** | Validation for Turkish business data: phone numbers, national ID, tax number, IBAN, role vs. personal email. |
 | **[n8n-workflows](https://github.com/kerem-aydin/n8n-workflows)** | Five n8n workflows from my own instance: a demo-clinic booking assistant, WhatsApp messaging, reminders and more, cleaned for reuse. |
+| **[sales-collection-dashboard](https://github.com/kerem-aydin/sales-collection-dashboard)** | A Turkish Excel template for monthly sales and bank collections across provinces: bank lines matched to customers, a month selector, summary cards and a native chart. No macros; fictional sample data. |
 
-The five code repositories run their tests on every push, with at most one dependency each.
+The five code repositories run their tests on every push, with at most one dependency each. The Excel template is rebuilt from code and checked on every push.
 
 ### How I work
 
@@ -103,7 +104,7 @@ yapıyor.
   bekçisi, araştırma hatları, problem radarı, iş avcısı, haftalık rapor,
   kullanım bekçisi. Gizli depolarımda son bir yılda yaklaşık 1.400 commit.
 - **Açık depolar:** gece-bekcisi, kanitli-arastirma, ajan-ofisi,
-  randevu-widget, tr-dogrulama, n8n-workflows.
+  randevu-widget, tr-dogrulama, n8n-workflows, sales-collection-dashboard (Excel satış ve tahsilat paneli).
 
 İş birliklerine ve projelere açığım.
 
