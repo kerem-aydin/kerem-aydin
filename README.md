@@ -1,11 +1,13 @@
 ## Kerem Aydın
 
-Mathematics student at Sakarya University. I design and build **websites,
-dashboards, AI agents and automations**, and the checks that prove they still
-work tomorrow. I work alone, with agents doing much of the routine work.
+Mathematics student at Sakarya University. I work with **AI coding agents**
+(Claude Code, Codex) every day and build **AI agents, automations, dashboards
+and websites**, plus the checks that prove they still work tomorrow. I work
+alone, with agents doing much of the routine work.
 
-**Open for freelance work:** websites · admin panels and dashboards · workflow
-automation (n8n, Make, Telegram bots, AI agents).
+**Open for freelance work:** Claude Code and Codex setups for codebases ·
+fixing and shipping AI-built apps (Lovable, Bolt, Cursor, v0) · workflow
+automation (n8n, Make, AI agents) · dashboards and websites.
 
 ---
 
@@ -56,6 +58,8 @@ with the Web Audio API (three.js).
 
 | Repository | What it does |
 |---|---|
+| **[claude-code-setup-example](https://github.com/kerem-aydin/claude-code-setup-example)** | A complete Claude Code setup around a small API: CLAUDE.md, skills, safety hooks that block force pushes and `.env` reads, a test-before-commit hook, subagents on cheaper models, MCP. A script feeds sample tool calls to the hooks: 13/13 behave as expected. |
+| **[ai-app-rescue-example](https://github.com/kerem-aydin/ai-app-rescue-example)** | Case study: an AI-built React booking app, tagged `before` and `after`. Build fixed, 15 tests added, a secret key removed from the browser bundle, phone layout fixed, Lighthouse 100 in all four categories. |
 | **[gece-bekcisi](https://github.com/kerem-aydin/gece-bekcisi)** | Night watch for websites. A real browser scrolls specified pages as a slow phone and a desktop, reports invisible headings and footers, sideways scroll, broken images, slow pages. Includes a nightly workflow example that checks a deliberately hidden footer first. |
 | **[kanitli-arastirma](https://github.com/kerem-aydin/kanitli-arastirma)** | Evidence-first research run by coding agents: separate stages, an adversarial audit by an agent that did not write the work, code-checked rules for what counts as proof that people pay. |
 | **[ajan-ofisi](https://github.com/kerem-aydin/ajan-ofisi)** | A one-person office on Telegram: morning plan from a Markdown task list, a decision box with buttons, a usage guard for background agents. |
@@ -64,7 +68,7 @@ with the Web Audio API (three.js).
 | **[n8n-workflows](https://github.com/kerem-aydin/n8n-workflows)** | Five n8n workflows from my own instance: a demo-clinic booking assistant, WhatsApp messaging, reminders and more, cleaned for reuse. |
 | **[sales-collection-dashboard](https://github.com/kerem-aydin/sales-collection-dashboard)** | A Turkish Excel template for monthly sales and bank collections across provinces: bank lines matched to customers, a month selector, summary cards and a native chart. No macros; fictional sample data. |
 
-The five code repositories run their tests on every push, with at most one dependency each. The Excel template is rebuilt from code and checked on every push.
+Five of the code repositories run their tests on every push, with at most one dependency each; the two newest keep their test and measurement output in the repo. The Excel template is rebuilt from code and checked on every push.
 
 ### How I work
 
@@ -74,11 +78,11 @@ The five code repositories run their tests on every push, with at most one depen
 
 ### Now · October 2026
 
-- Open for freelance work: dashboards and internal tools, websites, workflow automation.
-- Building website templates for real-estate offices and dashboards for small businesses.
+- Open for freelance work: Claude Code and Codex setups, fixing and shipping AI-built apps, workflow automation.
+- Publishing case studies of AI-assisted development with their tests and evidence.
 - Finished six research lines on where AI solves problems people pay for.
 
-TypeScript · JavaScript · Python · Next.js · React · Node.js · Supabase / Postgres ·
+Claude Code · Codex · TypeScript · JavaScript · Python · Next.js · React · Node.js · Supabase / Postgres ·
 Meta Graph API · OpenAI · n8n · Make · GitHub Actions · Vercel · Puppeteer · three.js
 
 [veluxoai.com](https://veluxoai.com) · [LinkedIn](https://www.linkedin.com/in/kerem-aydin-ai)
@@ -88,13 +92,15 @@ Meta Graph API · OpenAI · n8n · Make · GitHub Actions · Vercel · Puppeteer
 <details>
 <summary><b>Türkçe</b></summary>
 
-Sakarya Üniversitesi'nde matematik okuyorum. **Web sitesi, panel, yapay zekâ
-ajanları ve otomasyonlar** tasarlayıp kuruyorum; bunların yarın da çalıştığını
-kanıtlayan denetimleri de. Tek başıma çalışıyorum; rutin işin çoğunu ajanlar
-yapıyor.
+Sakarya Üniversitesi'nde matematik okuyorum. Her gün **yapay zekâ kodlama
+ajanlarıyla** (Claude Code, Codex) çalışıyor; **yapay zekâ ajanları,
+otomasyonlar, paneller ve web siteleri** kuruyorum; bunların yarın da
+çalıştığını kanıtlayan denetimleri de. Tek başıma çalışıyorum; rutin işin
+çoğunu ajanlar yapıyor.
 
-**Serbest işlere açığım:** web sitesi · yönetim paneli · iş akışı otomasyonu
-(n8n, Make, Telegram botları, yapay zekâ ajanları).
+**Serbest işlere açığım:** projelere Claude Code ve Codex kurulumu · yapay
+zekâyla yapılmış uygulamaları (Lovable, Bolt, Cursor, v0) düzeltip yayına alma ·
+iş akışı otomasyonu (n8n, Make, yapay zekâ ajanları) · panel ve web sitesi.
 
 - **Öne çıkan proje:** [Veluxo AI](https://veluxoai.com), randevuyla çalışan işletmeler için
   Instagram ve WhatsApp'tan cevap veren, gerçekten boş saati doğrulayıp randevuyu
@@ -103,7 +109,7 @@ yapıyor.
 - **Kendim için çalıştırdığım sistemler:** kokpit paneli, Telegram ekibi, gece
   bekçisi, araştırma hatları, problem radarı, iş avcısı, haftalık rapor,
   kullanım bekçisi. Gizli depolarımda son bir yılda yaklaşık 1.400 commit.
-- **Açık depolar:** gece-bekcisi, kanitli-arastirma, ajan-ofisi,
+- **Açık depolar:** claude-code-setup-example, ai-app-rescue-example, gece-bekcisi, kanitli-arastirma, ajan-ofisi,
   randevu-widget, tr-dogrulama, n8n-workflows, sales-collection-dashboard (Excel satış ve tahsilat paneli).
 
 İş birliklerine ve projelere açığım.
