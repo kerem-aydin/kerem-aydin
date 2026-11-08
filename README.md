@@ -76,7 +76,7 @@ Five of the code repositories run their tests on every push, with at most one de
 - **Measure what the user sees.** My site's footer was blank on phones with every test green. The night watch exists because of that.
 - **Proof before building.** A complaint count is not proof that anyone pays; my research rules say what is.
 
-### Now · October 2026
+### Now · November 2026
 
 - Open for freelance work: Claude Code and Codex setups, fixing and shipping AI-built apps, workflow automation.
 - Publishing case studies of AI-assisted development with their tests and evidence.
