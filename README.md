@@ -11,9 +11,27 @@ automation (n8n, Make, AI agents) · dashboards and websites.
 
 ---
 
-### Selected project
+### Selected work
 
-**[Veluxo AI](https://veluxoai.com)** · built alone, July–October 2026
+**[Veluxo](https://veluxoai.com)** · since November 2026
+
+The name I work under for local businesses: QR menus, Google profile and review
+care, websites and an Instagram booking assistant for cafés, restaurants,
+salons, hotels, estate agents and car dealers. Set up, fixed and kept current,
+starting with a free review.
+
+- Site designed and built by me: bilingual (Turkish/English), sector and case
+  pages, video-led sections. Next.js · TypeScript · Vercel.
+- Behind it, an outreach pipeline that runs every morning: it finds local
+  businesses, writes a review page and a first message for each one, and puts
+  the day's list on my dashboard. Nothing is sent without me.
+
+<p>
+  <a href="https://veluxoai.com"><img src="assets/veluxo-site-desktop.jpg" alt="Veluxo home page on desktop" width="620"></a>
+  <a href="https://veluxoai.com"><img src="assets/veluxo-site-phone.jpg" alt="Veluxo home page on a phone" width="178"></a>
+</p>
+
+**Veluxo AI receptionist** · built alone, July–October 2026 · where Veluxo started
 
 A written-channel receptionist for appointment-based businesses. A message
 arrives on Instagram or WhatsApp, the assistant answers it, checks a real free
@@ -28,10 +46,10 @@ slot, and writes the booking into the business's own panel.
 - Next.js · React · TypeScript · Supabase (Postgres) · OpenAI · Vercel.
 
 <p>
-  <a href="https://veluxoai.com"><img src="assets/veluxo-desktop.jpg" alt="Veluxo AI home page on desktop" width="620"></a>
-  <a href="https://veluxoai.com"><img src="assets/veluxo-phone.jpg" alt="Veluxo AI home page on a phone" width="178"></a>
+  <img src="assets/veluxo-desktop.jpg" alt="The original Veluxo AI home page on desktop" width="620">
+  <img src="assets/veluxo-phone.jpg" alt="The original Veluxo AI home page on a phone" width="178">
 </p>
-<sub>Site and panel designed and built by me. The panel shown on the home page uses sample data.</sub>
+<sub>The original site and panel, October 2026. Designed and built by me; the panel shown uses sample data. The receptionist now lives on as the Instagram booking assistant above.</sub>
 
 ### Systems I run for myself
 
@@ -78,6 +96,7 @@ Five of the code repositories run their tests on every push, with at most one de
 
 ### Now · November 2026
 
+- Running Veluxo: websites, QR menus and Google care for local businesses, with a daily outreach pipeline I built.
 - Open for freelance work: Claude Code and Codex setups, fixing and shipping AI-built apps, workflow automation.
 - Publishing case studies of AI-assisted development with their tests and evidence.
 - Finished six research lines on where AI solves problems people pay for.
@@ -102,10 +121,13 @@ otomasyonlar, paneller ve web siteleri** kuruyorum; bunların yarın da
 zekâyla yapılmış uygulamaları (Lovable, Bolt, Cursor, v0) düzeltip yayına alma ·
 iş akışı otomasyonu (n8n, Make, yapay zekâ ajanları) · panel ve web sitesi.
 
-- **Öne çıkan proje:** [Veluxo AI](https://veluxoai.com), randevuyla çalışan işletmeler için
-  Instagram ve WhatsApp'tan cevap veren, gerçekten boş saati doğrulayıp randevuyu
-  işletmenin paneline yazan resepsiyon. Site, panel ve kanallar dahil uçtan uca tek başıma tasarlayıp
-  kurdum (Temmuz–Ekim 2026).
+- **Şu an:** [Veluxo](https://veluxoai.com) adıyla kafe, restoran, kuaför, otel, emlak ve oto
+  galerilerine QR menü, Google profili ve yorum bakımı, web sitesi ve Instagram randevu asistanı
+  kuruyorum; ücretsiz incelemeyle başlıyor. Site benim tasarımım; arkasında her sabah işletme bulup
+  her birine inceleme sayfası ve ilk mesaj hazırlayan bir temas sistemi çalışıyor (Kasım 2026'dan beri).
+- **Başladığı yer:** Veluxo AI, randevuyla çalışan işletmeler için Instagram ve WhatsApp'tan cevap
+  veren, gerçekten boş saati doğrulayıp randevuyu işletmenin paneline yazan resepsiyon. Site, panel
+  ve kanallar dahil uçtan uca tek başıma tasarlayıp kurdum (Temmuz–Ekim 2026).
 - **Kendim için çalıştırdığım sistemler:** kokpit paneli, Telegram ekibi, gece
   bekçisi, araştırma hatları, problem radarı, iş avcısı, haftalık rapor,
   kullanım bekçisi. Gizli depolarımda son bir yılda yaklaşık 1.400 commit.
